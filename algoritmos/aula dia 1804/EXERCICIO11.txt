@@ -1,0 +1,26 @@
+Algoritmo "exercicio10"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/04/2017
+Var
+qa,qm,qmi,qme: real
+Inicio
+escreval("Digite a quantidade atual no estoque: ")
+leia(qa)
+escreval("Digite a quantidade maxima em estoque: ")
+leia(qm)
+escreval("Digite a quantidade minima em estoque: ")
+leia(qmi)
+qme:=(qm+qm)/2
+se (qa>=qme) entao
+escreval("Não efetuar compra")
+senao
+escreval("Efetuar compra")
+fimse
+
+
+
+
+Fimalgoritmo

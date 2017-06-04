@@ -1,0 +1,33 @@
+Algoritmo "exercicio14"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+val, total: real
+cod:caracter
+
+Inicio
+escreval ("Digite o código do cliente: ")
+Escreval("F para funcionario")
+Escreval("E para Especial")
+Escreval("C para Cliente Normal")
+escreval("")
+leia (cod)
+escreval ("Digite o valor da compra: ")
+leia (val)
+se (cod = "f") e (cod="F") entao
+total:= val-100*0.05
+escreval("O valor da compra é: ", total)
+fimse
+se (cod = "e") e (cod="E") entao
+total:= val-100*0.10
+escreval("O valor da compra é: ", total)
+fimse
+se (cod = "c") e (cod="C") entao
+total:= val
+escreval("O valor da compra é: ", total)
+fimse
+
+Fimalgoritmo

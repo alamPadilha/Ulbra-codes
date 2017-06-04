@@ -1,0 +1,25 @@
+Algoritmo "exercicio5"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+n1,n2: real
+
+Inicio
+escreval ("Digite o primeiro número: ")
+leia (n1)
+escreval ("Digite o segundo número: ")
+leia (n2)
+se (n1=n2) entao
+escreval(" Números iguais.")
+fimse
+se (n1>n2)entao
+escreval(" o número maior é: ", n1)
+senao
+escreval(" o número maior é: ", n2)
+fimse
+
+
+Fimalgoritmo

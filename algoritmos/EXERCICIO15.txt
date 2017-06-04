@@ -1,0 +1,31 @@
+Algoritmo "exercicio15"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+x, y, z:real
+inicio
+escreva("entre com o valor de x: ")
+leia(x)
+escreva("entre com o valor de y: ")
+leia(y)
+escreva("entre com o valor de z: ")
+leia(z)
+se (x<y+z) e (y<x+z) e (z<x+y) entao
+escreval("Estes valores formam um triangulo")
+se (x=y) e (y=z) entao
+escreva ("Triangulo Equilátero")
+senao
+se (x=y) ou (y=z) ou (x=z) entao
+escreva ("Triângulo Isósceles")
+senao
+escreva ("Triangulo Escaleno")
+fimse
+fimse
+senao
+escreva ("Estes valores não formam um triângulo")
+fimse
+
+Fimalgoritmo

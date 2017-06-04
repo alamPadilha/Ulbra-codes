@@ -1,0 +1,29 @@
+Algoritmo "naturalidade"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/04/2017
+Var
+// Seção de Declarações das variáveis 
+nome: caracter
+
+Inicio
+escreval("Digite a inicial do seu respectivo estado:")
+escreva("Digite sua naturalidade: ")
+leia(nome)
+se (nome= "r") e (nome= "R") entao
+escreval("Gaúcho")
+fimse
+se (nome= "p") e (nome= "P") entao
+escreval("Paranaense")
+fimse
+se (nome= "s") e (nome= "S") entao
+escreval("catarinense")
+fimse
+se (nome= "o") e (nome= "O") entao
+escreval("outros estados")
+fimse
+
+
+Fimalgoritmo

@@ -1,0 +1,22 @@
+Algoritmo "exercicio10"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+cont,saldo: real
+
+Inicio
+escreval ("Digite seu numero da conta: ")
+leia (cont)
+escreval ("Digite o seu saldo: ")
+leia (saldo)
+se saldo < 0 entao
+escreval("Conta estourada")
+fimse
+se saldo >= 0 entao
+escreval("Conta normal")
+fimse
+
+Fimalgoritmo

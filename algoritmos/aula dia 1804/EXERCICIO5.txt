@@ -1,0 +1,24 @@
+Algoritmo "exercicio5"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/04/2017
+Var
+n1,n2,soma, sub: real
+
+Inicio
+escreva("Digite o primeiro número: ")
+leia(n1)
+escreva("Digite o segundo número: ")
+leia(n2)
+soma:=n1+n2
+se (soma>20) entao
+Soma:=soma+8
+escreva ("seu número está acima de 20 e foi adicionado mais 8: ", soma)
+fimse
+se(soma<20) entao
+soma:=soma-5
+escreva(" seu número é menor que 20 e foi subtraido 5:", soma)
+fimse
+Fimalgoritmo

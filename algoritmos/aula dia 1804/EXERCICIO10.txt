@@ -1,0 +1,28 @@
+Algoritmo "exercicio10"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 18/04/2017
+Var
+nrc,sal,deb,cre,sala: real
+Inicio
+escreval("Digite seu número da conta: ")
+leia(nrc)
+escreval("Digite seu saldo: ")
+leia(sal)
+escreval("Digite seu Débito: ")
+leia(deb)
+escreval("Digite seu crédito: ")
+leia(cre)
+sala:=sal-deb+cre
+se (sala>=0) entao
+escreval(" SALDO POSITIVO no valor de: ", sala)
+senao
+escreval(" SALDO NEGATIVO no valor de: ", sala)
+fimse
+
+
+
+
+Fimalgoritmo

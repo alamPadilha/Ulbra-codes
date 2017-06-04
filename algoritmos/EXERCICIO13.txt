@@ -1,0 +1,30 @@
+Algoritmo "exercicio13"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+cod:caracter
+n1,n2,n3,soma: real
+
+Inicio
+escreval("Digite o código do aluno: ")
+leia(cod)
+escreval ("Digite a primeira nota: ")
+leia (n1)
+escreval ("Digite a primeira nota: ")
+leia (n2)
+escreval ("Digite a primeira nota: ")
+leia (n3)
+soma:= (n1*4 +n2*3+n3*3)/10
+se soma >=5 entao
+escreval("Código do Aluno: ", cod)
+escreval("APROVADO: ", soma)
+fimse
+se soma <5 entao
+escreval("Código do Aluno: ", cod)
+escreval("REPROVADO: ", soma)
+fimse
+
+Fimalgoritmo

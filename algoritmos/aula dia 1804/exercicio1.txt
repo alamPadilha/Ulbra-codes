@@ -1,0 +1,20 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre Gatelli
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : alam
+// Data atual  : 18/04/2017
+Var
+n1: real
+
+
+Inicio
+escreva("Digite seu número: ")
+leia(n1)
+se (n1>100) e (n1<1000) entao
+escreva("seu número esta na faixa de 100 a 1000")
+senao
+escreva("seu numero nao esta na faixa de 100 a 1000")
+fimse
+
+Fimalgoritmo

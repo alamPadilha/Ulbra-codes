@@ -1,0 +1,30 @@
+Algoritmo "qulometros"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Alexandregatelli
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 18/04/2017
+var
+  vei : caracter;
+  km, consumo : real;
+inicio
+  escreval("Informe o tipo de carro (A/B/C)==> ")
+  leia(vei)
+  escreval("Infome o percurso em km ==> ")
+  leia(km)
+  se (vei = "C") ou (vei = "c") entao
+  consumo := km / 12
+  fimse
+  se(vei = "B") ou (vei = "b") entao
+  consumo := km / 9
+  fimse
+  se (vei = "A") ou (vei = "a") entao
+  consumo := km / 8
+  fimse
+   se(consumo <> 0) entao
+       escreval("Consumo estimado em litros: ",consumo :2:2)
+   senao
+       escreva("Modelo inexistente")
+  fimse
+
+Fimalgoritmo

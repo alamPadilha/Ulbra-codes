@@ -1,0 +1,25 @@
+Algoritmo "exercicio1"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+a,b: real
+
+Inicio
+escreva("Digite o valor de A:")
+leia(A)
+escreva("Digite o valor de B: ")
+leia(B)
+se (A>B) entao
+A:= (A + 100)
+escreva(" O valor de A é :" , A)
+senao
+B:= (b+100)
+escreva(" O valor de B é :" , B)
+fimse
+
+
+
+Fimalgoritmo

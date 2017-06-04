@@ -1,0 +1,26 @@
+Algoritmo "exercicio11"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+diaria, total: real
+
+Inicio
+escreval ("Digite o número total de diárias: ")
+leia (diaria)
+se diaria < 15 entao
+total:= (50.00+1.50)*diaria
+escreval("O total é: ", total)
+fimse
+se diaria = 15 entao
+total:= (50.00+1.00)*diaria
+escreval("O total é: ", total)
+fimse
+se diaria > 15 entao
+total:= (50.00+0.50)*diaria
+escreval("O total é: ", total :2:2)
+fimse
+
+Fimalgoritmo

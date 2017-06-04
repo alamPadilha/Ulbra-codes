@@ -1,0 +1,27 @@
+Algoritmo "exercicio9"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+a,b,c: caractere
+
+Inicio
+escreval ("Digite o primeiro número: ")
+leia (a)
+escreval ("Digite o segundo número: ")
+leia (b)
+escreval ("Digite o terceiro número: ")
+leia (c)
+se (a>b) e (a>c) entao
+escreval("O maior numero é o primeiro: ", A)
+fimse
+se (b>a)e (b>c) entao
+escreval("O maior numero é o segundo: ", b)
+fimse
+se (c>a)e (c>b) entao
+escreval("O maior numero é o terceiro: ", c)
+fimse
+
+Fimalgoritmo

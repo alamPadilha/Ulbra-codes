@@ -1,0 +1,24 @@
+Algoritmo "exercicio6"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+n1,n2: real
+
+Inicio
+escreval ("Digite o primeiro número: ")
+leia (n1)
+escreval ("Digite o segundo número: ")
+leia (n2)
+se (n1>n2) entao
+n1:= n1+n2
+escreval(" A soma é:", n1)
+senao
+n2:= n1-n2
+escreval(" A subtração é: ", n2)
+fimse
+
+
+Fimalgoritmo

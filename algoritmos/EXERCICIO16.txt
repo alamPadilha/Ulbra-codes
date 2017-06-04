@@ -1,0 +1,38 @@
+Algoritmo "exercicio16"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+sexo:caracter
+salario,bonusm,bonusf,normal,tem:real
+cod,funcionario:inteiro
+inicio
+
+         escreval(" Código do Funcionário: ")
+         leia(cod)
+			escreva("Informe o sexo: ")
+			leia(sexo)
+			escreva("Informe o salário: ")
+			leia(salario)
+			escreva("Informe o tempo de serviço: ")
+			leia(tem)
+			se(sexo="M") ou (sexo="m") e (tem > 15) entao
+			bonusm := salario - (20 * salario / 100)
+			fimse
+			se(sexo="F") ou (sexo="F") e (tem > 10) entao
+			bonusf:=salario - (25 * salario / 100)
+			fimse
+         se(sexo="M") ou (sexo="m") e (tem < 15) entao
+			normal:=salario + 100
+		fimse
+		se(sexo="F") ou (sexo="f") e (tem < 10) entao
+		normal:=salario + 100
+		fimse
+			escreval("Funcionários com tempo de casa superior a 15 anos: ",bonusm)
+			escreval("Funcionárias com tempo de casa superior a 10 anos: ",bonusf)
+			escreval("Demais funcionários :",normal)
+
+Fimalgoritmo
+

@@ -1,0 +1,20 @@
+Algoritmo "maças"
+// Disciplina  :  [Linguagem e Lógica de Programação]
+// Professor   : Alexandregatelli
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 18/04/2017
+var
+  mac, soma: real;
+inicio
+  escreval("Informe a quantidade de maças: ")
+  leia(mac)
+  se (mac >= 11) entao
+  soma := mac * 1.00
+  fimse
+  se(mac <= 11) entao
+  soma := mac * 1.30
+  fimse
+       escreval("Os valores da maças é: R$",soma :2:2)
+
+Fimalgoritmo
