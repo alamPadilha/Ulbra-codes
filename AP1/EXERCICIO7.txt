@@ -1,0 +1,26 @@
+Algoritmo "exercicio7"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Alexandre gatelli
+// Descrição   : aula7
+// Autor(a)    : Alam do nascimento padilha
+// Data atual  : 11/04/2017
+Var
+n1,n2: real
+
+Inicio
+escreval ("Digite o primeiro número: ")
+leia (n1)
+escreval ("Digite o segundo número: ")
+leia (n2)
+se (n1) MOD 2 = 0 entao
+escreval("É múltiplo de 2.")
+senao
+escreval("Não é múltiplo de dois.")
+fimse
+se (n2) MOD 2 = 0 entao
+escreval("É múltiplo de 2.")
+senao
+escreval("Não é múltiplo de dois.")
+fimse
+
+Fimalgoritmo
